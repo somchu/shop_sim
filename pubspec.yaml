@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  pastel_theme_package:
+    path: ../pastel_theme_package
 
 dev_dependencies:
   flutter_test:
