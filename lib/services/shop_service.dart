@@ -5,6 +5,7 @@ class ShopService {
 
   static Future<void> saveShopName(String name) async {
     final prefs = await SharedPreferences.getInstance();
+
     await prefs.setString(_shopNameKey, name);
   }
 
