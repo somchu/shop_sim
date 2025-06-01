@@ -7,10 +7,12 @@ environment:
   sdk: ^3.7.2
 
 dependencies:
+  awesome_dialog: ^3.2.1
   flutter:
     sdk: flutter
   pastel_theme_package:
     path: ../pastel_theme_package
+  shared_preferences: ^2.5.3
 
 dev_dependencies:
   flutter_test:
